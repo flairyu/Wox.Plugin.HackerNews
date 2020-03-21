@@ -1,12 +1,12 @@
 {
-    "ID":"D2D2C23B084D411DB66FE0C79D6C1B7H",
-    "ActionKeyword":"hn",
-    "Name":"Hacker News",
-    "Description":"Hacker News@https://news.ycombinator.com",
-    "Author":"qianlifeng",
+    "ID":"70d09821-94ef-4e8f-b2e0-aa88442894b2",
+    "ActionKeyword":"dic",
+    "Name":"Dictionary",
+    "Description":"Dictionary from baidu",
+    "Author":"yxb",
     "Version":"1.0",
     "Language":"python",
-    "Website":"http://www.getwox.com",
+    "Website":"https://github.com/flairyu/Wox.Plugin.HackerNews",
     "IcoPath":"Images\\app.ico",
     "ExecuteFileName":"main.py"
 }

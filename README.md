@@ -1,4 +1,4 @@
 Wox.Plugin.HackerNews
 =====================
 
-HackerNews plugin for Wox
+Dictionary plugin for Wox
