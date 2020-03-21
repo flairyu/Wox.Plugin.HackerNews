@@ -1,10 +1,10 @@
 {
-    "ID":"70d09821-94ef-4e8f-b2e0-aa88442894b2",
+    "ID":"70d0982194ef4e8fb2e0aa88442894b2",
     "ActionKeyword":"dic",
-    "Name":"Dictionary",
+    "Name":"Baike",
     "Description":"Dictionary from baidu",
     "Author":"yxb",
-    "Version":"1.0",
+    "Version":"1.0.1",
     "Language":"python",
     "Website":"https://github.com/flairyu/Wox.Plugin.HackerNews",
     "IcoPath":"Images\\app.ico",
