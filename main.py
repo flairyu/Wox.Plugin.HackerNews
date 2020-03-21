@@ -2,8 +2,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-import webbrowser
-from wox import Wox, WoxAPI
+from wox import Wox
 
 class DictClass(Wox):
 
@@ -26,28 +25,9 @@ class DictClass(Wox):
                 "Title": i.find('strong').text,
                 "SubTitle": i.find('p').text,
                 "IcoPath":"Images/app.ico",
-                # "ContextData": "ctxData",
-                "JsonRPCAction":{
-                    "method": "openUrl",
-                    "parameters":[url],
-                    "dontHideAfterAction":True
-                }
+                "ContextData": "ctxData",
             })
         return results
-        # r = requests.get('https://news.ycombinator.com/',proxies = proxies)
-        # bs = BeautifulSoup(r.text)
-        # results = []
-        # for i in bs.select(".comhead"):
-        #     title = i.previous_sibling.text
-        #     url = i.previous_sibling["href"]
-        #     results.append({"Title": title ,"IcoPath":"Images/app.ico","JsonRPCAction":{"method": "openUrl","parameters":[url],"dontHideAfterAction":True}})
-
-        # return results
-
-    def openUrl(self,url):
-        webbrowser.open(url)
-        #todo:doesn't work when move this line up 
-        WoxAPI.change_query(url)
     
     def context_menu(self, data):
         results = []
