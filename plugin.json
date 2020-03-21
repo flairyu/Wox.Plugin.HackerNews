@@ -4,7 +4,7 @@
     "Name":"Baike",
     "Description":"Dictionary from baidu",
     "Author":"yxb",
-    "Version":"1.0.1",
+    "Version":"1.0.2",
     "Language":"python",
     "Website":"https://github.com/flairyu/Wox.Plugin.HackerNews",
     "IcoPath":"Images\\app.ico",
